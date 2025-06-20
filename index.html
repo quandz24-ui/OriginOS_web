@@ -6050,6 +6050,77 @@
 
         document.getElementById("left-text-tb").textContent =
           "Notification Center"; // Giữ nguyên "notification center" nhưng viết hoa đầu từ
+
+      function tr_language() {
+        localStorage.setItem("language", "tr");
+
+        document.getElementById("name_setting").textContent = "Ayarlar";
+        document.getElementById("about_name_setting").textContent = "Hakkında";
+        document.getElementById("about_name_small_setting").textContent =
+          "OS Hakkında";
+        document.getElementById("animation_name_setting").textContent =
+          "Animasyon";
+        document.getElementById("animation_name_small_setting").textContent =
+          "Animasyon Hızı";
+        document.getElementById("theme_name_setting").textContent = "Tema";
+        document.getElementById("theme_name_small_setting").textContent =
+          "Duvar Kağıdı · Parmak İzi";
+
+        back.textContent = "Hakkında";
+        back2.textContent = "Animasyon";
+        back3.textContent = "Tema";
+        back4.textContent = document.getElementById(
+          "wallpaper_btn_2"
+        ).textContent = "Duvar Kağıdı";
+        back5.textContent = "Her Zaman Açık Ekran";
+        back6.textContent = "Kaydet";
+        back7.textContent = "Yapımcılar";
+        back8.textContent = "Ana Ekran";
+        back9.textContent = "Parmak İzi";
+        back10.textContent = "Versiyon";
+
+        document.getElementById("Vesion").textContent = "Versiyon";
+        document.getElementById("Develop").textContent = "Geliştirici";
+        document.getElementById("Blur").textContent = "Bulanıklık";
+        document.getElementById("Lag_on_some_phone").textContent =
+          "Bazı cihazlarda kasar";
+
+        document.getElementById("setting_title_AOD").textContent =
+          "Her Zaman Açık Ekran";
+        document.getElementById("setting_title_hide_wallpaper").textContent =
+          "Duvar Kağıdını Gizle";
+
+        document.getElementById("AOD_name").textContent = "Her Zaman Açık Ekran";
+        document.getElementById("wallpaper_name").textContent = "Duvar Kağıdı";
+        document.getElementById("lock_screen_name").textContent = "Kilit Ekranı";
+        document.getElementById("finger_print_name").textContent =
+          "Parmak İzi";
+        document.getElementById("home_screen_name").textContent = "Ana Ekran";
+
+        document.getElementById("btn1").textContent = "Sitil 1";
+        document.getElementById("btn2").textContent = "Sitil 2";
+        document.getElementById("Font_color").textContent = "Yazı Tipi Rengi";
+        document.getElementById("Font_size").textContent = "Yazı Tipi Boyutu";
+
+        document.getElementById("btn-white").textContent = "Beyaz";
+        document.getElementById("btn-blue").textContent = "Mavi";
+
+        document.getElementById("size_icon_title").textContent = "İkon Boyutu:";
+        document.getElementById("dock_bar_title").textContent = "Dock Boyutu";
+        document.getElementById("dark_mode_title").textContent = "Koyu Mod";
+        document.getElementById("icon_packs_title").textContent = "İkon Paketleri";
+        document.getElementById("icon_packs_small_title").textContent =
+          "Yakında Geliyor";
+        document.getElementById("note_dark_mode").textContent =
+          "Note: Tarayıcınızın koyu modunu kullanmayın";
+
+        document.getElementById("Dialer").textContent = "Telefon";
+        document.getElementById("Contacts").textContent = "Kişiler";
+        document.getElementById("Favorites").textContent = "Favoriler";
+
+        document.getElementById("left-text-tb").textContent =
+          "Bildirim Çubuğu";
+        
       }
       const lang = localStorage.getItem("language");
 
