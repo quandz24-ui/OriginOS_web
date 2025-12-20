@@ -401,7 +401,7 @@ function handleBoxPass2() {
       : "#ffffff";
     finger_biometrics = box_pass2.classList.contains("off") ? 0 : 1;
     localStorage.setItem("finger_saved", finger_biometrics.toString());
-  } else tb_system("create password first");
+  } else tb_system("To add a fingerprint, please set a password");
 }
 
 function add_pass_events() {

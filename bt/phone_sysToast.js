@@ -21,7 +21,7 @@ function call_phone() {
   let num = display_phone.innerText;
   display_phone.innerText = " ";
   if (num == "*#0*#") showPopup_open_close("control_panel_hws_phone", "block");
-  else if (num != "") tb_system("SIM card not found");
+  else if (num != "") tb_system("Call failed: No SIM");
   if (num == "") tb_system("Enter numbers");
 }
 
