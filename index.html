@@ -8,6 +8,9 @@
     />
     <meta name="color-scheme" content="light" />
     <title>OriginOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400&display=swap"
       rel="stylesheet"
@@ -16,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Black+Han+Sans&family=Chakra+Petch&family=Comfortaa&family=Indie+Flower&family=Merriweather&family=Orbitron&family=Pacifico&family=Paytone+One&family=Righteous&family=Roboto&family=Silkscreen&family=VT323&display=swap"
       rel="stylesheet"
@@ -30,15 +34,10 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=backspace"
@@ -265,7 +264,7 @@
             document.getElementById('allApp').style.display = 'flex';
             powerbtn.addEventListener('click', powerbtnEvent);"
             >
-              Go to OriginWEB
+              OK, let's go!
             </button>
           </div>
         </div>
@@ -601,7 +600,7 @@
         </div>
         <div class="box" id="box2">
           <div class="app" id="app2">
-            <div class="center_item">none</div>
+            <div class="center_item">Files</div>
           </div>
         </div>
         <div class="box" id="box3">
@@ -639,7 +638,7 @@
               <div class="player-popup_music" id="playerPopup_music">
                 <div
                   onclick="closePlayer_music()"
-                  style="background: none; position: absolute; right: 10px"
+                  style="background: none;"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -653,6 +652,7 @@
                     />
                   </svg>
                 </div>
+
                 <img id="popupImage_music" src="" alt="Album Art" />
                 <div class="popup-title_music" id="popupTitle_music"></div>
                 <div class="controls_music">
@@ -760,14 +760,14 @@
                 id="animation_name_setting"
                 style="left: 60px"
               >
-                Animation
+                Animations
               </div>
               <div
                 class="left-text-small"
                 id="animation_name_small_setting"
                 style="left: 60px"
               >
-                Animation Speed
+                Animation Speed &middot; Blur
               </div>
             </div>
             <div class="khaysetting4" id="theme_setting">
@@ -787,7 +787,7 @@
                 id="theme_name_small_setting"
                 style="left: 60px"
               >
-                Wallpaper &middot; Finger Print
+                Wallpaper &middot; Fingerprint
               </div>
             </div>
             <div class="khaysetting5" id="audio_setting">
@@ -830,7 +830,7 @@
                 </svg>
               </div>
               <div class="left-text" id="lock_name_style" style="left: 60px">
-                Lock style
+                Passwords & Security
               </div>
               <div
                 class="left-text-small"
@@ -1006,17 +1006,17 @@
               </div>
             </div>
             <div class="app4app" id="app4animation" style="z-index: 123213123">
-              <div class="back-button" id="back_to_setting2">Animation</div>
+              <div class="back-button" id="back_to_setting2">Animations</div>
               <div class="box-wrapper">
                 <div class="scaling-box" id="scaling-box"></div>
               </div>
               <div class="speed-container">
-                <div class="speed-box" data-speed="0.6">0.8x</div>
-                <div class="speed-box active" data-speed="0.7">1x</div>
-                <div class="speed-box" data-speed="1">1.5x</div>
-                <div class="speed-box" data-speed="3">4x</div>
-                <div class="speed-box" data-speed="6">8x</div>
-                <div class="speed-box" data-speed="8">10x</div>
+                <div class="speed-box active-scale-effect" data-speed="0.6">0.8x</div>
+                <div class="speed-box active-scale-effect active" data-speed="0.7">1x</div>
+                <div class="speed-box active-scale-effect" data-speed="1">1.5x</div>
+                <div class="speed-box active-scale-effect" data-speed="3">4x</div>
+                <div class="speed-box active-scale-effect" data-speed="6">8x</div>
+                <div class="speed-box active-scale-effect" data-speed="8">10x</div>
               </div>
               <div class="setting-item">
                 <div class="setting-title">Blur</div>
@@ -1027,7 +1027,7 @@
                 ></div>
               </div>
               <div class="setting-item" id="animation_more_btn">
-                <div class="setting-title">Animation tuning</div>
+                <div class="setting-title">Animation Tuning</div>
                 <div class="toggle-switch" id="none2" style="opacity: 0"></div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1043,10 +1043,10 @@
 
               <div class="app4app" id="app4MoreAnimation">
                 <div class="back-button" id="back_to_setting_MoreAnimation">
-                  Animation tuning
+                  Animation Tuning
                 </div>
                 <div class="setting-item" id="anim_unlock_btn">
-                  <div class="setting-title">Unlock animation</div>
+                  <div class="setting-title">Device Unlock Animations</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -1060,7 +1060,7 @@
                 </div>
 
                 <div class="setting-item" id="anim_open_app_btn">
-                  <div class="setting-title">App opening animation</div>
+                  <div class="setting-title">App Open Animations</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -1074,7 +1074,7 @@
                 </div>
 
                 <div class="setting-item" id="anim_close_app_btn">
-                  <div class="setting-title">App closing animation</div>
+                  <div class="setting-title">App Close Animations</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -1088,7 +1088,7 @@
                 </div>
 
                 <div class="setting-item" id="ControlsCenterAnimBtn">
-                  <div class="setting-title">Controls center animation</div>
+                  <div class="setting-title">Control Center Animations</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -1115,7 +1115,7 @@
                     border-bottom-right-radius: 0;
                   "
                 >
-                  <div class="setting-title">upload animation file .txt</div>
+                  <div class="setting-title">Import animation tuning (.txt)</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -1132,7 +1132,7 @@
                   id="exportConfigBtn"
                   style="border-radius: 0"
                 >
-                  <div class="setting-title">Export animation file .txt</div>
+                  <div class="setting-title">Export animation tuning (.txt)</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -1155,12 +1155,12 @@
                     showPopup2_alert(
                       `Join our group to find animation config file!`,
                       `Join`,
-                      `No`,
+                      `Cancel`,
                       () => { window.open("https://t.me/OriginWEBChat", "_blank");},
                       () =>{})
                     '
                 >
-                  <div class="setting-title">Get animation config file?</div>
+                  <div class="setting-title">Get more animations</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -1175,7 +1175,7 @@
 
                 <div class="app4app" id="app4UnlockAnimation">
                   <div class="back-button" id="back_UnlockAnimation">
-                    Animation unlock
+                    Unlock animation
                   </div>
                   <div class="all_cubic_custom_opening">
                     <div
@@ -1183,7 +1183,7 @@
                       id="reset_anim_unlock_btn"
                     >
                       <div class="setting-title" style="font-size: 20px">
-                        reset
+                        Reset to defaults
                       </div>
                     </div>
 
@@ -1377,7 +1377,7 @@
                     </div>
 
                     <div class="section">
-                      <h3>speed animation unlock</h3>
+                      <h3>Unlock Animation Speed</h3>
                       <div class="label">
                         Speed: <span id="timeAnimationUnlockVal">0.6</span>s
                       </div>
@@ -1438,7 +1438,7 @@
                     </div>
 
                     <div class="section" id="section-all">
-                      <h3>Scale Animation</h3>
+                      <h3>Icon Scale Animation</h3>
 
                       <div class="label">
                         Time: <span id="timeAllVal">0.4</span>s
@@ -1673,7 +1673,7 @@
                     </div>
 
                     <div class="setting-item_volume sectionForSttingItem">
-                      <div class="setting-title_volume">Multiple click</div>
+                      <div class="setting-title_volume">Multiple click animations</div>
                       <div
                         class="toggle-switch_volume active"
                         id="multipleClickAppToggle"
@@ -2031,7 +2031,7 @@
                 id="app4wallpaper"
                 style="z-index: 100213923; display: none"
               >
-                <div class="back-button" id="back_to_setting4">WallPaper</div>
+                <div class="back-button" id="back_to_setting4">Wallpaper</div>
                 <div class="button-row" id="button-row">
                   <div
                     class="img-button active"
@@ -3301,7 +3301,7 @@
 
               <div class="app4app" id="app4finger">
                 <div class="back-button" id="back_to_setting9">
-                  Finger print
+                  Fingerprint
                 </div>
                 <div class="half-border-box">
                   <img
@@ -3354,9 +3354,9 @@
               </div>
             </div>
             <div class="app4app" id="app4audio" style="z-index: 123213123">
-              <div class="back-button" id="back_to_setting11">Sound</div>
+              <div class="back-button" id="back_to_setting11">Media & Sounds</div>
               <div class="volume-setting_volume">
-                <div class="setting-title_volume">Master Volume</div>
+                <div class="setting-title_volume">Media Volume</div>
                 <input
                   type="range"
                   id="volume_all_slider"
@@ -3405,7 +3405,7 @@
               </div>
             </div>
             <div class="app4app" id="app4lockstyle" style="z-index: 123213123">
-              <div class="back-button" id="back_to_setting13">Lock style</div>
+              <div class="back-button" id="back_to_setting13">Passwords & Security</div>
               <div id="all_box_pass">
                 <div class="box_pass" id="box_pass1">
                   <div class="setting-title" style="margin: 15px">Password</div>
@@ -3425,7 +3425,7 @@
                     class="setting-title"
                     style="margin: 13px; margin-top: 16px; font-size: 15px"
                   >
-                    FingerPrint
+                    Fingerprint
                   </div>
                   <div class="left-text-small2" id="status_pass2">ON</div>
                   <svg
@@ -3566,17 +3566,17 @@
         </div>
         <div class="box" id="box5">
           <div class="app" id="app5">
-            <div class="center_item">none</div>
+            <div class="center_item">Messaging</div>
           </div>
         </div>
         <div class="box" id="box6">
           <div class="app" id="app6">
-            <div class="center_item">none</div>
+            <div class="center_item">Gallery</div>
           </div>
         </div>
         <div class="box" id="box7">
           <div class="app" id="app7">
-            <div class="center_item">none</div>
+            <div class="center_item">Calendar</div>
           </div>
         </div>
         <div class="box" id="box8">
@@ -3623,14 +3623,9 @@
                   <div
                     class="navicon_phone"
                     style="
-                      background: url('originos_data/phone.jpg') no-repeat
-                        center;
+                      background: url('originos_data/phone.jpg') no-repeat center;
                       background-size: contain;
                       filter: invert(1);
-                      margin-left: 23%;
-                      margin-top: 10%;
-                      width: 30px;
-                      height: 30px;
                     "
                   ></div>
                 </button>
@@ -3710,7 +3705,7 @@
         </div>
         <div class="box" id="box10">
           <div class="app" id="app10">
-            <div class="center_item">none</div>
+            <div class="center_item">Compass</div>
           </div>
         </div>
         <div class="box" id="box11">
@@ -3718,14 +3713,14 @@
             <div class="date-display" id="dateText3"></div>
           </div>
           <div class="app" id="app11">
-            <div class="center_item">coming soon</div>
+            <div class="center_item">Clock Widget</div>
           </div>
         </div>
 
         <div class="box" id="box12">
           <div class="app" id="app12">
             <div class="widgetPreviewWallpaper" style="display: none"></div>
-            <div class="center_item">coming soon</div>
+            <div class="center_item">Gallery Widget</div>
           </div>
         </div>
 
@@ -3844,21 +3839,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="footer-text"
-      style="
-        bottom: -0px;
-        color: white;
-        font-size: 18px;
-        font-family: 'Noto sans', sans;
-        font-weight: bold;
-        z-index: 101000;
-        pointer-events: none;
-      "
-    >
-      V1.5.00
-    </div>
-    <div class="power-button" title="power-button"></div>
+    <div class="power-button" title="Power"></div>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>

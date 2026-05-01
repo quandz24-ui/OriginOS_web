@@ -9,14 +9,14 @@ setTimeout(() => {
     finger_print.play();
 
     const el = document.getElementById("lolhaha");
-    if (!el || el.textContent.trim() !== "tiktok: @sungsamtech - @._naq.") {
+    if (!el || el.textContent.trim() !== "TikTok: @sungsamtech - @._naq.") {
       localStorage.clear();
       sessionStorage.clear();
       location.reload();
     }
   }, 300);
   const el = document.getElementById("lolhaha");
-  if (!el || el.textContent.trim() !== "tiktok: @sungsamtech - @._naq.") {
+  if (!el || el.textContent.trim() !== "TikTok: @sungsamtech - @._naq.") {
     localStorage.clear();
     sessionStorage.clear();
     location.reload();
